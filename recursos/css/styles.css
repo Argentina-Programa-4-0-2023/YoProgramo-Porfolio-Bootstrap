@@ -1466,3 +1466,30 @@ body {
   }
 }
 
+@media (max-width: 1650px){
+
+  .background-header.header-sticky .nav {
+    margin-top: 136px !important;
+  }
+  .background-header .main-nav .nav li {
+    height: 136px;
+    line-height: 80px;
+  }
+  .background-header {
+    background-color: var(--color-oscuro) !important;
+    border-radius: 0px 0px 25px 25px;
+    height: 136px!important;
+    position: fixed!important;
+    top: 0!important;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+  }
+  .habilidades .service-item h4 {
+    left: 150px;
+  }
+}
