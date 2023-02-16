@@ -561,16 +561,16 @@ header .main-nav a img {
 
 /* HABILIDADES */
 
-.services .service-item:hover .icon img {
+.habilidades .service-item:hover .icon img {
   margin-top: -10px;
 }
 
-.services .service-item {
+.habilidades .service-item {
   position: relative;
   margin-top: 95px;
 }
 
-.services .service-item .icon {
+.habilidades .service-item .icon {
   width: 130px;
   height: 130px;
   display: inline-block;
@@ -584,12 +584,12 @@ header .main-nav a img {
   top: -56px;
 }
 
-.services .service-item .icon img {
+.habilidades .service-item .icon img {
   max-width: 86px;
   transition: all .2s;
 }
 
-.services .service-item .main-content {
+.habilidades .service-item .main-content {
   border-radius: 25px;
   padding: 80px 30px 50px 30px;
   background-color: #f1f0fe;
@@ -598,7 +598,7 @@ header .main-nav a img {
   transition: all .4s;
 }
 
-.services .service-item h4 {
+.habilidades .service-item h4 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -610,27 +610,27 @@ header .main-nav a img {
   left: 89px;
 }
 
-.services .service-item p {
+.habilidades .service-item p {
   color: #4a4a4a;
   margin-bottom: 25px;
   margin-top: 32px;
 }
-.services .service-item .main-content .main-button a:hover, .formacion .main-button a:hover{
+.habilidades .service-item .main-content .main-button a:hover, .formacion .main-button a:hover{
 background-color: var(--color-neutro-azul);
 }
-.services .service-item .main-content .main-button a{
+.habilidades .service-item .main-content .main-button a{
   filter: drop-shadow(2px 2px 0px var(--color-neutro-azul));
 
 }
 /* FORMACION */
 
-.about-us {
+.formacion {
   position: relative;
   padding: 0px;
   margin-top: 130px;
 }
 
-.about-us:before {
+.formacion:before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -705,16 +705,16 @@ h2.accordion-header button {
   color: #4a4a4a;
 }
 
-.about-us .section-heading {
+.formacion .section-heading {
   margin-left: 113px;
   margin-bottom: 0px;
 }
 
-.about-us .section-heading {
+.formacion .section-heading {
   text-align: end;
 }
 
-.about-us .section-heading .main-button {
+.formacion .section-heading .main-button {
   margin-top: 50px;
 }
 
@@ -725,7 +725,7 @@ h2.accordion-header button {
 
 /* PROYECTOS */
 
-.courses {
+.proyectos {
   margin-top: 160px;
 }
 
@@ -1307,42 +1307,42 @@ body {
     position: absolute;
     left: 65px;
   }
-  .services {
+  .habilidades {
     margin-top: 80px;
   }
-  .about-us {
+  .formacion {
     margin-top: 100px;
   }
   .accordion {
     padding: 40px 25px 10px 25px;
   }
-  .services .service-item .icon {
+  .habilidades .service-item .icon {
     width: 170px;
     height: 170px;
     line-height: 170px;
   }
-  .about-us .section-heading {
+  .formacion .section-heading {
     margin-left: 0px;
     margin-top: 120px;
   }
-  .about-us::before,
+  .formacion::before,
   .testimonials::before,
   .contact-us::before {
     display: none;
   }
-  .about-us .section-heading p,
+  .formacion .section-heading p,
   .testimonials .section-heading p,
   .contact-us .section-heading p {
     margin-top: 30px;
   }
-  .about-us .section-heading .main-button {
+  .formacion .section-heading .main-button {
     margin-top: 30px;
   }
-  .about-us .main-button a {
+  .formacion .main-button a {
     background-color: var(--color-neutro-naranja);
     color: var(--color-claro);
   }
-  .courses {
+  .proyectos {
     margin-top: 100px;
   }
   .event_filter ul li {
