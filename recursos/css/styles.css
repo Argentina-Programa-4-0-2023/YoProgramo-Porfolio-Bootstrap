@@ -1468,9 +1468,6 @@ body {
 
 @media (min-width: 1650px){
 
-  .background-header.header-sticky .nav {
-    margin-top: 136px !important;
-  }
   .background-header .main-nav .nav li {
     height: 136px !important;
     line-height: 80px;
