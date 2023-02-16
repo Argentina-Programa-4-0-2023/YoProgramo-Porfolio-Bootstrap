@@ -164,7 +164,7 @@ body {
 .background-header {
   background-color: var(--color-oscuro) !important;
   border-radius: 0px 0px 25px 25px;
-  height: 96px!important;
+  height: 96px;
   position: fixed!important;
   top: 0!important;
   left: 0;
