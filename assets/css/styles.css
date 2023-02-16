@@ -164,7 +164,7 @@ body {
 .background-header {
   background-color: var(--color-oscuro) !important;
   border-radius: 0px 0px 25px 25px;
-  height: 80px!important;
+  height: 96px!important;
   position: fixed!important;
   top: 0!important;
   left: 0;
@@ -192,7 +192,6 @@ body {
 .header-area .main-nav {
   background: transparent;
   display: flex;
-  align-items: flex-start;
 }
 
 .header-area .main-nav .logo {
@@ -217,7 +216,7 @@ header .main-nav a img {
 .header-area .main-nav ul.nav {
   border-radius: 0px 0px 25px 25px;
   flex-basis: 100%;
-  margin-right: 0px;
+  margin-top: 20px;
   justify-content: right;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -275,7 +274,7 @@ header .main-nav a img {
 
 
 .background-header .main-nav .nav li {
-  height: 80px;
+  height: 96px;
   line-height: 80px;
 }
 
@@ -312,7 +311,7 @@ header .main-nav a img {
 }
 
 .background-header .main-nav .menu-trigger {
-  top: 20px;
+  top: 30px;
 }
 
 .header-area .main-nav .menu-trigger span,
@@ -1208,7 +1207,6 @@ body {
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: var(--color-neutro-naranja)!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -1251,7 +1249,7 @@ body {
     margin-top: 100px !important;
   }
   .background-header.header-sticky .nav {
-    margin-top: 80px !important;
+    margin-top: 96px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
