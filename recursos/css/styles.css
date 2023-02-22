@@ -6,10 +6,10 @@ body{
   --color-neutro-naranja: #FF6E31;
   --color-neutro-azul: #081F62;
   --color-oscuro: #051747;
-  --color-texto-o: var(#1B1A17);
-  --color-front:var(#EFC23D);
-  --color-back:var(#0B687C);
-  --color-blandas:var(#D2ADB4);
+  --color-texto-o:#1B1A17;
+  --color-front:#EFC23D;
+  --color-back:#0B687C;
+  --color-blandas: #D2ADB4;
 }
 /* Fuentes */
 
